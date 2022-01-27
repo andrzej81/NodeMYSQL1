@@ -30,3 +30,7 @@ con.query(
 con.query("SELECT * FROM `city`", function (error, results, fields) {
   console.log(results[90]);
 });
+
+con.query("SELECT * FROM `city`", function (error, results, fields) {
+  console.log(fields);
+});
