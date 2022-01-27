@@ -1,0 +1,15 @@
+{
+  "name": "nodemysql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrzej Iwaniuk",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^14.3.2",
+    "mysql2": "^2.3.3"
+  }
+}
