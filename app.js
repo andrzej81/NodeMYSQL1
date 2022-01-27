@@ -35,3 +35,11 @@ con.query("SELECT * FROM `city`", function (error, results, fields) {
   console.log(fields);
   console.log(fields[1].name);
 });
+
+con.connect(function (err) {
+  if (err) throw err;
+  con.query("SELECT * FROM city ORDER BY name LIMIT 5", function (err, result) {
+    if (err) throw err;
+    console.log(result);
+  });
+});
