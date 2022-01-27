@@ -33,4 +33,5 @@ con.query("SELECT * FROM `city`", function (error, results, fields) {
 
 con.query("SELECT * FROM `city`", function (error, results, fields) {
   console.log(fields);
+  console.log(fields[1].name);
 });
